@@ -14,7 +14,7 @@ Usage
 =====
 
 ```
-git clone git@github.com:hmalphettes/kibana-proxy.git
+git clone git@github.com:shao1555/elastic-hq-proxy.git
 git submodule update --init --recursive
 npm install
 node app.js &
