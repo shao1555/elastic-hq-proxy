@@ -1,3 +1,3 @@
 [submodule "elasticsearch-HQ"]
 	path = elasticsearch-HQ
-	url = git@github.com:royrusso/elasticsearch-HQ.git
+	url = https://github.com/royrusso/elasticsearch-HQ.git
