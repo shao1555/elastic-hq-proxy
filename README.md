@@ -3,7 +3,7 @@ elastic-hq-proxy
 
 Hosts [Elastic HQ](http://www.elastichq.org/) as a nodejs express application.
 
-This application modified from [kibana-proxy](https://github.com/hmalphettes/kibana-proxy) from Hugues Malphettes' work.
+This application modified from [kibana-proxy](https://github.com/hmalphettes/kibana-proxy) by Hugues Malphettes.
 
 Features:
 - Proxy access to Elasticsearch: all elasticsearch queries are sent through the express application.
