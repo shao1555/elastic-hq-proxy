@@ -7,7 +7,7 @@ This application modified from [kibana-proxy](https://github.com/hmalphettes/kib
 
 Features:
 - Proxy access to Elasticsearch: all elasticsearch queries are sent through the express application.
-- Optional Google OAuth2 login with (passport)[http://passport.org].
+- Optional Google OAuth2 login with [passport](http://passport.org).
 - Support for Elasticsearch protected by basic-authentication: only the express app will know about the username and password.
 
 Usage
@@ -24,10 +24,10 @@ open http://localhost:3003
 Configuration
 =============
 Configuration is done via environment variables:
-- `ES_URL`: example: `http://user:password@your-elasticsearch.local`; default: `http://localhost:9200`
-- `PORT`: the port where the app is run, default to `VCAP_PORT` and then to `3003`.
-- `APP_ID`, `APP_SECRET`: Google OAuth2 config. Optional.
-- `AUTHORIZED_EMAILS`: define what authenticated email is granted access; a comma separated listed of patterns; defaults to `*`. example: `*@stoic.com,justme@gmail.com` each pattern must be one-of:
+- `ES\_URL`: example: `http://user:password@your-elasticsearch.local`; default: `http://localhost:9200`
+- `PORT`: the port where the app is run, default to `VCAP\_PORT` and then to `3003`.
+- `APP\_ID`, `APP\_SECRET`: Google OAuth2 config. Optional.
+- `AUTHORIZED\_EMAILS`: define what authenticated email is granted access; a comma separated listed of patterns; defaults to `*`. example: `*@stoic.com,justme@gmail.com` each pattern must be one-of:
     - `*`: anything,
     - `*@domain`: any email in the domain
     - `an@email`: a specific email.
@@ -37,6 +37,7 @@ License
 elastic-hq-proxy is freely distributable under the terms of the MIT license.
 
 Copyright (c) 2014 Sho Sawada
+
 Original version: Copyright (c) 2013 Sutoiku, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
