@@ -1,0 +1,31 @@
+{
+  "name": "elastic-hq-proxy",
+  "version": "0.1.0",
+  "description": "Server tier for [Elastic HQ](http://www.elastichq.org/); Proxies the calls to Elasticsearch and insert authentication.",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/shao1555/elastic-hq-proxy"
+  },
+  "keywords": [
+    "elastic-hq",
+    "elasticsearch"
+  ],
+  "author": "Sho Sawada",
+  "license": "MIT",
+  "copyright": "Sho Sawada, inspired by Sutoiku",
+  "dependencies": {
+    "express": "*",
+    "passport": "*",
+    "passport-google-oauth": "*",
+    "connect-restreamer": "*"
+  },
+  "devDependencies": {
+  },
+  "bugs": {
+    "url": "https://github.com/shao1555/elastic-hq/issues"
+  }
+}
